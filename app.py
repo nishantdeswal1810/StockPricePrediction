@@ -6,6 +6,7 @@ from dash.dependencies import Input, Output
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
+server = app.server
 
 # Importing page layouts
 from pages import about, forecasting
