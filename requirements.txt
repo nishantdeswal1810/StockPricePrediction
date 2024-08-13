@@ -1,3 +1,9 @@
-yfinance
 pandas
+numpy
 matplotlib
+scikit-learn
+statsmodels
+keras
+tensorflow
+prophet
+yfinance
