@@ -7,3 +7,5 @@ keras
 tensorflow
 prophet
 yfinance
+dash 
+plotly

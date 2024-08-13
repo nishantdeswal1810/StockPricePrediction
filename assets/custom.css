@@ -1,0 +1,131 @@
+/* General body styling */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Headings styling */
+h1, h2 {
+    color: #343a40;
+    text-align: center;
+}
+
+/* Customize buttons */
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the date picker */
+.DatePickerInput {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    color: #343a40;
+}
+
+.DatePickerInput input {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+/* Style the dropdowns */
+.Select--single .Select-control {
+    background-color: #ffffff;
+    color: #343a40;
+    border: 1px solid #ced4da;
+}
+
+.Select-menu-outer {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+/* Style the graphs */
+.plotly-graph-div {
+    background-color: #ffffff;
+}
+
+/* Remove the top and bottom padding around graphs */
+.graph {
+    padding: 0;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #007bff;
+    border-bottom: 2px solid #0056b3;
+}
+
+.navbar a {
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+/* Make tables look clean */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+
+table th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Center the "Show Value" result text */
+#value-result {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* General spacing adjustments */
+.container {
+    padding: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #0056b3;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
